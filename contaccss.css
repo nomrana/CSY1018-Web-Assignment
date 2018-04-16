@@ -1,0 +1,106 @@
+body {background: url(img/bg.jpg);}
+
+a:hover { 
+    background-color: yellow;
+}
+
+ul li {display: inline;}
+ul{list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+	background-color: white;
+    text-align: center;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    box-shadow:20px 20px 20px #666666;
+    font-family: 'Oswald', sans-serif;}
+
+li a {padding: 20px;
+      text-decoration: none;
+  }
+
+
+a:hover { 
+    background-color: #FFE5B4;
+}
+
+a:active {
+	background-color: #666666;
+ }
+
+footer {
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	opacity: 0.5;
+    filter: alpha(opacity=50);
+    background-color: white;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 20px;
+	
+	}
+
+	section {display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+
+}
+
+.contact {
+	background: url(img/contactbg.jpg) center;
+	background-size: 550px;
+	background-repeat: no-repeat;
+
+	border-radius: 20px;
+	border-width: 4px;
+	width: 35%;
+	text-align: left;
+	padding: 2%;
+	margin-top: 10px;
+	opacity: 0.5;
+    filter: alpha(opacity=50);}
+
+ .text {
+ 	background-color: white;
+ 	border-radius: 20px;
+	margin-top: 10px;
+	width: 35%;
+	padding: 2%;
+	opacity: 0.5;
+    filter: alpha(opacity=50);
+ }
+
+ #map {	border: 3px solid black;
+  width: 600px;
+  height: 230px;
+justify-content: center;
+align-items: center;}
+
+span {	font-size: 25px; }
+
+p {font-family: 'Oswald', sans-serif;
+	color: white;
+	}
+
+form {display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;}
+textarea{ resize: none; }
+label{
+	font-family: 'Oswald', sans-serif;
+}
+button {width: 80px;}
+
+img { width: 600px; height: 230px;}
+
+
+
+
+
+ 
+
+
+
+
