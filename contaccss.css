@@ -49,7 +49,8 @@ footer {
 }
 
 .contact {
-	background: url(img/contactbg.JPG) center;
+	background: url(img/contactbg.JPG);
+	position: center;
 	background-size: 550px;
 	background-repeat: no-repeat;
 
