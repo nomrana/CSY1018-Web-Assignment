@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="contaccss.css">
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<link rel="icon" type="image/gif/png" href="img/N_logo.png">
+	<title>Looking For Me?</title>
+</head>
+<body>
+
+<nav>
+		<ul>
+	
+	<li><a href="index.html" title="Back to the start!">Home</a></li>
+	<li><a href="about.html" title="Find out more about me here!">About Me</a></li>
+	<li><a href="cv.html" title="Looking for awesome person like me to hire?">CV</a></li>
+	<li><a href="social.html" title="You can keep in touch with me here" >Social</a></li>
+	<li><a href="contact.html" title="Need to find me?" >Contact Me</a></li>
+	<li><a href="report.html" title="Models GP Report" target="_blank">Models GP</a></li>
+</ul>
+</nav>
+<section>
+
+
+<div class="contact">
+	<p><span>Nom Rana</span>
+		<br>
+	Nakhipot, Sadobato
+	<br>
+	Lalitpur, Kathmandu
+	<br>
+	Nepal
+	<br>
+	(+977)-9841485550
+	<br>
+	<a href="mailto:orcman999@gmail.com">Orcman999@gmail.com</a>
+	</p>
+</div>
+
+
+<div class="text">
+  <form action="/No_PHP_File_TESTING_BUTTON_ONLY" method="post">
+  	
+        <label for="first-name">First Name :</label>
+        <input type="text" id="first-name" placeholder="Enter your name here">
+        <br>
+        <label for="email">Email :</label>
+        <input type="email" id="email" placeholder="Enter your email here">
+         <br>
+        <label for="message">Message :</label>
+        <textarea rows="6" id="message" placeholder="Enter your message here"></textarea>
+   <button type="submit" value="Submit">Submit</button>
+  </form>
+  
+</div>
+
+
+
+<div id="map"></div>
+
+<script>
+function myMap() {
+
+var myLatlng = new google.maps.LatLng(27.651825838451746, 85.32018394970703);
+
+var mapOptions = {
+    center: new google.maps.LatLng(27.651825838451746, 85.32018394970703),
+    zoom: 18,
+    mapTypeId: google.maps.MapTypeId.HYBRID
+    }
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}
+
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMsiWnuyFnnoNwV4nm-ReZnAMP_Ir1wSc&callback=myMap"></script>
+
+</section>
+<footer> 
+ENJOY!
+</footer>
+
+</body>
+</html>
