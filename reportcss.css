@@ -1,0 +1,13 @@
+body {background: url(img/Bg.jpg); margin-left: 5%;}
+h1, li,  p {font-family: 'Oswald', sans-serif;}
+p {width: 65%; text-align: justify;}
+h2 {text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 50px;
+	}
+
+.content {border: 1px solid black;
+			padding: 20px;
+			width: 400px; }
+img {height: 550px;}
+	
